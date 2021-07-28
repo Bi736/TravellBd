@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/*head*/
+
+.head-bg{
+    height: 600px;
+    width: 600px;
+    border: 1px solid black;
+    border-radius: 50% 30% 40% 70%;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    background: url(./image/pexels-ian-beckley-2440079.jpg)no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:right ;
+}
+
+
+
+.head{
+    height: 115vh;
+    width: 100%;
+    background: linear-gradient(to left,rgba(95, 171, 221, 0.4),rgba(255, 255, 204,.4) );
+}
+
+.text{
+    position: absolute;
+    top: 15%;
+    left: 48%;
+}
+.text h1{
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+}
+.text h2{margin-top: 30px;
+    font-family: 'Otomanopee One', sans-serif;
+    font-family: 400;
+    color: rgb(122, 117, 117);
+
+}
+.text p{margin-top: 80px;
+    width: 70%;
+    font-family: 'Karla', sans-serif;
+font-family: 'Otomanopee One', sans-serif;
+line-height: 30px;
+
+}
+
+
+/*review*/
+
+.review{margin-top: 50px;
+
+}
+.review h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: green;
+    margin: 30px;
+
+}
+
+.all-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.line{
+
+}
+.line img{
+    height: 280px;
+    width: 400px;
+    margin: 20px 20px;
+    border-radius: 30% 40% 50% 20%;
+    border: 1px solid black;
+    transition: 1s;
+}
+.line img:hover{
+    transform: scale(1.03);
+
+}
+
+.star{margin-top: 10px;
+
+}
+.star ul{
+    display: flex;
+}
+.star ul li{
+    list-style: none;
+    margin: 0 10px;
+    color: goldenrod;
+}
+.txt{
+    margin: 10px 40px;
+}
+
+.txt h3{font-size: 20px;
+    font-family: 'Otomanopee One', sans-serif;
+
+}
+.txt p{font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    color: brown;
+
+}

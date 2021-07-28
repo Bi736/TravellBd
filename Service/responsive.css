@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and down) */
+@media only screen and (max-width: 1200px) {
+    
+    .road-one img {
+        height: 200px;
+        width: 300px;
+        margin: 20px 45px;
+        border-radius: 10px 10px 15px;
+    }
+    .bus img {
+        height: 150px;
+        width: 250px;
+        margin-top: 15px;
+        border-radius: 8px;
+        border: 1px solid black;
+        transform: 1s;
+    }
+    .bus p {
+        width: 250px;
+        margin-top: 20px;
+        font-family: 'Varela Round', sans-serif;
+        font-size: 13px;
+        line-height: 25px;
+    }
+    
+    
+    .bus i {
+        font-size: 40px;
+        color: rgb(51, 77, 77);
+        display: inline;
+        text-align: center;
+    }
+    .bus {
+        text-align: center;
+        background-color: white;
+        box-shadow: 4px 4px 12px rgba(0, 77, 0,.6);
+        margin: 20px 40px;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+    .btn {
+        position: absolute;
+        left: 10%;
+        top: 260px;
+    }
+    .head {
+        height: 350px;
+        width: 100%;
+        background: linear-gradient(to left,rgba(0, 77, 0,.3),rgba(26, 26, 255,.4) ), url(../Image/pexels-shamia-casiano-585004.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: relative;
+    }
+
+
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and down) */
+@media only screen and (max-width: 992px) {
+    .head {
+        height: 130vh;
+        width: 100%;
+        background: linear-gradient(to left,rgba(0, 77, 0,.3),rgba(26, 26, 255,.4) ), url(../Image/pexels-shamia-casiano-585004.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: relative;
+    }
+
+
+    .road-one img {
+        height: 200px;
+        width: 300px;
+        margin: 20px 10px;
+        border-radius: 10px 10px 15px;
+    }
+
+    .bus {
+        background-color: white;
+        box-shadow: 4px 4px 12px rgba(0, 77, 0,.6);
+        margin: 20px 10px;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+    .book {
+        text-align: center;
+        width: 100%;
+        margin-top: 40px;
+    }
+    .one i {
+        text-align: left;
+        font-size: 40px;
+        transform: translateX(100px);
+        color: red;
+        display: inline;
+    }
+    .btn {
+        position: absolute;
+        top: 250px;
+        left: 10%;
+    }
+
+
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and down) */
+@media only screen and (max-width: 768px) {
+    .text h2 {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 30px;
+        color: white;
+        word-spacing: 10px;
+    }
+    .text h1 {
+        font-size: 50px;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .btn {
+        position: absolute;
+        top: 50%;
+        left: 10%;
+    }
+    .btn a {
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        padding: 5px 30px;
+        border: 1px solid black;
+        border-radius: 10px;
+        font-family: 'Otomanopee One', sans-serif;
+        background: linear-gradient(to left, rgba(242, 242, 242,.4),rgba(51, 153, 255,.4) );
+        transition: 1s;}
+
+        .book h1 {
+            text-align: center;
+            font-size: 30px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: green;
+        }
+        .one {
+            margin: 40px 20px;
+        }
+        .one i {
+            font-size: 30px;
+            transform: translateX(30px);
+            color: red;
+        }
+        .one h3 {
+            margin-top: 5px;
+            font-family: 'Otomanopee One', sans-serif;
+            color: rgb(0, 102, 0);
+            font-size: 18px;
+        }
+        .one p {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-top: 10px;
+            font-size: 15px;
+        }
+        .road-img {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .road-one img {
+            height: 250px;
+            width: 400px;
+            margin: 20px 10px;
+            border-radius: 10px 10px 15px;
+        }
+        .travell-system h1 {
+            font-size: 25px;
+            color: green;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+        }
+        .line-one {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 10px;
+        }
+        .bus h3 {
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: green;
+            font-size: 18px;
+        }
+
+        .bus img {
+            height: 250px;
+            width: 400px;
+            margin-top: 15px;
+            border-radius: 8px;
+            border: 1px solid black;
+            transform: 1s;
+        }
+        
+        .bus p {
+            width: 400px;
+            margin-top: 20px;
+            font-family: 'Varela Round', sans-serif;
+            font-size: 13px;
+            line-height: 25px;
+        }
+        .head {
+            height: 400px;
+            width: 100%;
+            background: linear-gradient(to left,rgba(0, 77, 0,.3),rgba(26, 26, 255,.4) ), url(../Image/pexels-shamia-casiano-585004.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            position: relative;
+            max-width: 100%;
+        }
+        .btn {
+            position: absolute;
+            top: 200px;
+            left: 10%;
+        }
+
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 576px) {
+    
+    .text h2 {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 20px;
+        color: white;
+        word-spacing: 10px;
+    }
+    .text h1 {
+        font-size: 40px;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .btn a {
+        text-decoration: none;
+        font-size: 15px;
+        color: white;
+        padding: 5px 30px;
+        border: 1px solid black;
+        border-radius: 10px;
+        font-family: 'Otomanopee One', sans-serif;
+        background: linear-gradient(to left, rgba(242, 242, 242,.4),rgba(51, 153, 255,.4) );
+        transition: 1s;
+    }
+    .book h1 {
+        text-align: center;
+        font-size: 25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: green;
+    }
+
+
+
+.why {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .one {
+        margin: 20px 20px;
+    }
+
+    
+
+    .one h3 {
+        text-align: center;
+        font-size: 20px;
+        margin-top: 5px;
+        font-family: 'Otomanopee One', sans-serif;
+        color: rgb(0, 102, 0);
+    }
+
+    
+
+
+    .road-section h1 {
+        text-align: center;
+        font-size: 20px;
+        color: green;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .road-one img {
+        height: 200px;
+        width: 350px;
+        margin: 20px 5px;
+        border-radius: 10px 10px 15px;
+    }
+    .travell-system h1 {
+        font-size: 20px;
+        color: green;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+    }
+    
+
+    .road-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .line-one {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+
+
+    .bus {
+        background-color: white;
+        box-shadow: 2px 2px 8px rgb(0 77 0 / 60%);
+        margin: 20px 20px;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+    .bus img {
+        height: 200px;
+        width: 300px;
+        margin-top: 15px;
+        border-radius: 8px;
+        border: 1px solid black;
+        transform: 1s;
+    }
+    .bus i {
+        transform: translateX(130px);
+        font-size: 30px;
+        color: rgb(51, 77, 77);
+    }
+    .bus p {
+        width: 300px;
+        margin-top: 20px;
+        font-family: 'Varela Round', sans-serif;
+        font-size: 12px;
+        line-height: 25px;
+        text-align: center;
+    }
+
+
+
+    .head {
+        margin: auto;
+        width: 100%;
+        background: linear-gradient(to left,rgba(0, 77, 0,.3),rgba(26, 26, 255,.4) ), url(../Image/pexels-shamia-casiano-585004.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: relative;
+        max-width: 100%;
+    }
+
+
+}
+
+
+
+
+@media only screen and (max-width:375px) {
+    .head{
+        height: 250px;
+        margin: auto;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: relative;
+        max-width: 100%;
+    }
+    .text {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+    .text h2 {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 15px;
+        color: white;
+        word-spacing: 10px;
+    }
+    .text h1 {
+        font-size: 30px;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .btn {
+        position: absolute;
+        top: 100px;
+        left: 20px;
+    }
+}
+
+
+
+

@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and down) */
+
+
+@media only screen and (max-width: 1200px) {
+
+    .line img {
+        height: 250px;
+        width: 350px;
+        margin: 20px 20px;
+        border-radius: 30% 40% 50% 20%;
+        border: 1px solid black;
+        transition: 1s;
+    }
+    .head-bg {
+        height: 470px;
+        width: 500px;
+        border: 1px solid black;
+        border-radius: 20% 20% 20% 20%;
+        position: absolute;
+        top: 20px;
+        left: 10px;
+        background: url(./image/pexels-ian-beckley-2440079.jpg)no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: left;
+    }
+    .head {
+        height: 550px;
+        width: 100%;
+        background: linear-gradient(to left,rgba(95, 171, 221, 0.4),rgba(255, 255, 204,.4) );
+    }
+    .text {
+        position: absolute;
+        top: 30px;
+        left: 48%;
+    }
+
+
+}
+
+
+/* Large devices (laptops/desktops, 992px and down) */
+
+@media only screen and (max-width: 992px) {
+    .head {
+        height: 600px;
+        width: 100%;
+        background: linear-gradient(to left,rgba(95, 171, 221, 0.4),rgba(255, 255, 204,.4) );
+    }
+    
+    .text p {
+        margin-top: 30px;
+        width: 90%;
+        font-family: 'Karla', sans-serif;
+        font-family: 'Otomanopee One', sans-serif;
+        line-height: 30px;
+    }
+    
+    .review {
+        margin-top: 50px;
+        width: 100%;
+    }
+    .all-line {
+        display: flex;
+        align-items: center;
+    }
+    .line img {
+        height: 180px;
+        width: 250px;
+        margin: 20px 20px;
+        border-radius: 30% 40% 50% 20%;
+        border: 1px solid black;
+        transition: 1s;
+    }
+    .text {
+        position: absolute;
+        top: 40px;
+        left: 55%;
+    }
+    .head-bg {
+        height: 500px;
+        width: 500px;
+        border: 1px solid black;
+        border-radius: 20% 20% 20% 20%;
+        position: absolute;
+        top: 20px;
+        left: 10px;
+        background: url(./image/pexels-ian-beckley-2440079.jpg)no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: left;
+    }
+
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and down) */
+
+@media only screen and (max-width: 768px) {
+    
+    .text h1 {
+        color: green;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 25px;
+    }
+    .text h2 {
+        font-size: 18px;
+        margin-top: 30px;
+        font-family: 'Otomanopee One', sans-serif;
+        font-family: 400;
+        color: rgb(122, 117, 117);
+    }
+    .text p {
+        font-size: 13px;
+        margin-top: 30px;
+        width: 90%;
+        font-family: 'Karla', sans-serif;
+        font-family: 'Otomanopee One', sans-serif;
+        line-height: 30px;
+    }
+    .review h1 {
+        text-align: center;
+        font-size: 3;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: green;
+        margin: 30px;
+    }
+    .all-line {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .line img {
+        height: 280px;
+        width: 350px;
+        margin: 20px 20px;
+        border-radius: 30% 40% 50% 20%;
+        border: 1px solid black;
+        transition: 1s;
+    }
+    .head-bg {
+        height: 500px;
+        width: 400px;
+        border: 1px solid black;
+        border-radius: 20% 20% 20% 20%;
+        position: absolute;
+        top: 20px;
+        left: 10px;
+        background: url(./image/pexels-ian-beckley-2440079.jpg)no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: left;
+    }
+    .head {
+        height: 550px;
+        width: 100%;
+        background: linear-gradient(to left,rgba(95, 171, 221, 0.4),rgba(255, 255, 204,.4) );
+    }
+
+
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 576px) {
+    
+    .head-bg {
+        height: 500px;
+        max-width: 100%;
+        width: 570px;
+        border: 1px solid black;
+        border-radius: 20% 20% 20% 20%;
+        position: absolute;
+        top: 20px;
+        left: 0;
+        background: url(./image/pexels-ian-beckley-2440079.jpg)no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: left;
+    }
+
+    
+    .text {
+        position: absolute;
+        top: 550px;
+        left: 10px;
+    }
+
+    .head {
+        height: 820px;
+        width: 100%;
+        background: linear-gradient(to left,rgba(95, 171, 221, 0.4),rgba(255, 255, 204,.4) );
+    }
+
+
+    .text h1 {
+        color: green;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+    }
+    .text h2 {
+        font-size: 15px;
+        margin-top: 30px;
+        font-family: 'Otomanopee One', sans-serif;
+        font-family: 400;
+        color: rgb(122, 117, 117);
+    }
+
+    .review h1 {
+        font-size: 25px;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: green;
+        margin: 0px;
+    }
+    .review {
+        margin-top: 70px;
+        width: 100%;
+    }
+    .text p {
+        font-size: 12px;
+        margin-top: 10px;
+        width: 100%;
+        font-family: 'Karla', sans-serif;
+        font-family: 'Otomanopee One', sans-serif;
+        line-height: 20px;
+        max-width: 100%;
+    }
+
+
+}
+
+
+
+
+@media only screen and (max-width: 375px){
+
+    .head-bg {
+        height: 300px;
+        max-width: 100%;
+        width: 100%;
+        border: 1px solid black;
+        border-radius: 20% 20% 20% 20%;
+        position: absolute;
+        top: 20px;
+        left: 0;
+        background: url(./image/pexels-ian-beckley-2440079.jpg)no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: left;
+    }
+    .text {
+        position: absolute;
+        top: 350px;
+        left: 5%;
+    }
+    .text {
+        position: absolute;
+        top: 350px;
+        left: 5%;
+    }
+    
+    .line img {
+        margin: auto;
+        height: 250px;
+        width: 300px;
+        border-radius: 30% 40% 50% 20%;
+        border: 1px solid black;
+        transition: 1s;
+    }
+
+
+
+    .head {
+        margin: auto;
+        max-width: 100%;
+        height: 750px;
+        width: 100%;
+        background: linear-gradient(to left,rgba(95, 171, 221, 0.4),rgba(255, 255, 204,.4) );
+    }
+    .text p {
+        max-width: 100%;
+        font-size: 12px;
+        margin-top: 20px;
+        width: 100%;
+        font-family: 'Karla', sans-serif;
+        font-family: 'Otomanopee One', sans-serif;
+        line-height: 20px;
+    }
+
+
+
+
+}

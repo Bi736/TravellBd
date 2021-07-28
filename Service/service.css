@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*header*/
+
+
+.text{position: absolute;
+    top: 20%;
+    left: 10%;
+
+}
+.text h1{font-size: 60px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.text h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    color: white;
+    word-spacing: 10px;
+
+}
+
+.btn {
+    position: absolute;
+    top: 270px;
+    left: 10%;
+}
+.btn a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    padding: 10px 60px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: 'Otomanopee One', sans-serif;
+    background: linear-gradient(to left, rgba(242, 242, 242,.4),rgba(51, 153, 255,.4) );
+    transition: 1s;
+
+}
+.btn:hover{
+    transform: scale(1.01);
+}
+
+
+/*book*/
+
+.book{
+    margin-top: 40px;
+}
+.book h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: green;
+
+}
+.why{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.one{
+    margin: 40px 40px;
+
+}
+.one h3{margin-top: 5px;
+    font-family: 'Otomanopee One', sans-serif;
+color:rgb(0, 102, 0) ;
+
+}
+.one p{margin-top: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+.one i{font-size: 40px;
+    transform: translateX(100px);
+    color: red;
+}
+
+
+
+/*road section*/
+
+.road-section{
+    margin-top: 30px;
+}
+.road-section h1{text-align: center;
+    font-size: 30px;
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+.road-section h3{text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+.road-section h4{text-align: center;
+    margin-top: 40px;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(153, 102, 51);
+
+
+}
+.road-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.road-one{
+
+}
+.road-one img{
+    height: 250px;
+    width: 400px;
+    margin: 20px 25px;
+    border-radius: 10px 10px 15px;
+}
+
+
+
+/*travell system*/
+
+.travell-system{margin-top: 60px;
+    background: linear-gradient(to left,rgba(0, 204, 255,.2),rgba(204, 102, 255,.3) );
+    padding: 30px 0px;
+
+}
+.travell-system h1{
+    font-size: 30px;
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+
+.line-one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.bus{background-color: white;
+    box-shadow: 4px 4px 12px rgba(0, 77, 0,.6);
+    margin: 20px 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+.bus h3{text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: green;
+
+}
+.bus img{height: 200px;
+    width: 350px;
+    margin-top: 15px;
+    border-radius: 8px;
+    border: 1px solid black;
+    transform: 1s;
+
+}
+.bus img:hover{
+    transform: scale(1.02);
+}
+
+
+.bus p{
+    width: 350px;
+    margin-top: 20px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+
+}
+.bus i{
+    transform: translateX(160px);
+    font-size: 40px;
+    color:rgb(51, 77, 77) ;
+}
+
+
+
+
+/*correction*/
+.head {
+    height: 600px;
+    width: 100%;
+    background: url(../Image/pexels-shamia-casiano-585004.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+.text {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+.btn {
+    position: absolute;
+    top: 200px;
+    left: 40px;
+}
